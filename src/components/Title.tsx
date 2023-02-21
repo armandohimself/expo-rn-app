@@ -11,13 +11,11 @@ export default function Title({ children }) {
 
 const styles = StyleSheet.create({
 	container: {
-		alignItems: "center",
-		justifyContent: "center",
 		padding: 10,
 	},
 	text: {
 		fontSize: 20,
 		fontWeight: "bold",
-		color: "white",
+		textAlign: "center",
 	},
 });
